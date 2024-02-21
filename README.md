@@ -33,7 +33,7 @@ Run the app in production
 docker run -d -p 3838:3838 example/shiny_app
 ```
 
-Launch browser: <http://localhost:3838/> ![](appss.png)
+Launch browser: <http://localhost:3838/> <br> ![](appss.png)
 
 In order to create renv.lock file properly,
 
