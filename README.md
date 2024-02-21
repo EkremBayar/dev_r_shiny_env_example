@@ -15,6 +15,12 @@ First, build the Dockerfile for R Shiny Environment
 docker build -t example/dev_r_shiny_env .
 ```
 
+If your are working locally, you can use this line to build Dockerfile
+
+``` bash
+DOCKER_BUILDKIT=0  docker build -t example/dev_r_shiny_env .
+```
+
 Go to App folder then build the Dockerfile for App
 
 ``` bash
