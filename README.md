@@ -24,7 +24,7 @@ docker build -t example/shiny_app .
 If your are working locally, you can use this line to build Dockerfile
 
 ``` bash
-DOCKER_BUILDKIT=0  docker build -t example/dev_r_shiny_env .
+DOCKER_BUILDKIT=0  docker build -t example/shiny_app .
 ```
 
 Run the app in production
